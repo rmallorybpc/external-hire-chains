@@ -25,6 +25,20 @@ Each row contains: `company`, `ceo_name`, `appointment_date`, `exit_date`,
 
 Candidate counts and successor-origin breakdowns are printed to the console.
 
+**Step 1b — diagnose blank successor origins (optional)**
+
+```bash
+python scripts/03_diagnose_nan_origins.py
+```
+
+For every row in both candidate files where `successor_origin` is blank, reports
+why the origin could not be derived: successor not found in the source at all,
+found but marked `excluded`, or found but not linkable to this company's chain
+(different company, company-name whitespace variant, or prior-stint boomerang
+record).  Prints per-reason counts per file and writes row-level detail to
+`data/working/nan-origin-diagnosis.csv`.  Run before manual coding to know which
+`successor_origin` blanks require additional research.
+
 **Step 2 — manual coding**
 
 Open both CSV files and fill the `exit_reason_ruling` column for every row.

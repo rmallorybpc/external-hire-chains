@@ -1,0 +1,25 @@
+file,company,ceo_name,exit_date,successor_name,reason,detail
+external-candidates.csv,ALEXION PHARMACEUTICALS INC,David L. Hallal,2016-12-12,"Ludwig N. Hantson, Ph.D.",found_excluded,found at ['ALEXION PHARMACEUTICALS INC']; classification=excluded; anchor=['2021-07-21']
+external-candidates.csv,ALLIANCE DATA SYSTEMS CORP,Melisa A. Miller,2019-11-18,Ralph J. Andretta,not_in_dataset,exec_fullname not found in source worksheet
+external-candidates.csv,COTY INC,Peter Harf,2020-09-01,Sue Y. Nabi,not_in_dataset,exec_fullname not found in source worksheet
+external-candidates.csv,CSX CORP,"E. Hunter Harrison, LL.D.",2017-12-16,James M. Foote,not_in_dataset,exec_fullname not found in source worksheet
+external-candidates.csv,GENERAL ELECTRIC CO,John L. Flannery,2018-10-01,"H. Lawrence Culp, Jr.",found_not_linked,different_company: found at 'DANAHER CORP' class=internal anchor=2014-09-09
+external-candidates.csv,IRON MOUNTAIN INC,C. Richard Reese,2013-01-07,William L. Meaney,not_in_dataset,exec_fullname not found in source worksheet
+external-candidates.csv,MATTEL INC,Mary Margaret-Hastings Georgiadis,2018-04-26,Ynon Kreiz,not_in_dataset,exec_fullname not found in source worksheet
+external-candidates.csv,PERRIGO CO PLC,Uwe F. Rehrhoff,2018-10-08,Murray S. Kessler,not_in_dataset,exec_fullname not found in source worksheet
+external-candidates.csv,RALPH LAUREN CORP,Stefan Larsson,2017-05-01,Patrice J. Louvet,not_in_dataset,exec_fullname not found in source worksheet
+external-candidates.csv,TIFFANY & CO,Frederic Patrick Cumenal,2017-02-05,Alessandro Bogliolo,found_excluded,found at ['TIFFANY & CO']; classification=excluded; anchor=['2021-01-07']
+external-candidates.csv,XEROX CORP,Jeffrey Jacobson,2018-05-14,Giovanni G. Visentin,not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,AFFILIATED MANAGERS GRP INC,Nathaniel Dalton,2019-05-29,Jay C. Horgen,not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,ALTRIA GROUP INC,"Howard A. Willard, III, BA (Hons), MBA",2020-04-14,"William F. Gifford, Jr.",not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,AMERICAN WATER WORKS CO INC,Walter J. Lynch,2022-02-02,M. Susan Hardwick,not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,BOSTON SCIENTIFIC CORP,William H. Kucheman,2012-11-01,Michael F. Mahoney,not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,CITRIX SYSTEMS INC,Kirill Tatarinov,2017-07-07,David James Henshall,found_excluded,found at ['CITRIX SYSTEMS INC']; classification=excluded; anchor=['2021-10-06']
+internal-candidates.csv,FASTENAL CO,Willard D. Oberton,2016-01-01,Daniel L. Florness,not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,JUNIPER NETWORKS INC,Shaygan Kheradpir,2014-11-01,Rami Rahim,not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,KEURIG DR PEPPER INC,Ozan Dokmecioglu,2022-11-10,Robert J. Gamgort,found_not_linked,anchor_precedes_exit: 'KEURIG DR PEPPER INC' class=internal anchor=2022-07-29 <= exit=2022-11-10 (prior-stint record; boomerang return not separately tracked)
+internal-candidates.csv,MURPHY OIL CORP,Steven A. Cosse,2013-08-30,Roger W. Jenkins,not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,TAPESTRY INC,Jide J. Zeitlin,2020-07-20,Joanne C. Crevoiserat,not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,TEXAS INSTRUMENTS INC,Brian T. Crutcher,2018-07-17,Richard K. Templeton,found_not_linked,anchor_precedes_exit: 'TEXAS INSTRUMENTS INC' class=internal anchor=2018-06-01 <= exit=2018-07-17 (prior-stint record; boomerang return not separately tracked)
+internal-candidates.csv,TYSON FOODS INC  -CL A,"Samuel Dean Banks, Jr.",2021-06-02,Donnie D. King,not_in_dataset,exec_fullname not found in source worksheet
+internal-candidates.csv,TYSON FOODS INC -CL A,Thomas P. Hayes,2018-09-30,Noel White,found_not_linked,company_name_variant: source has 'TYSON FOODS INC  -CL A' vs candidate has 'TYSON FOODS INC -CL A'; class=external anchor=2020-10-03
